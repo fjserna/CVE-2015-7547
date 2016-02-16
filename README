@@ -1,0 +1,14 @@
+We are providing this code as-is. You are responsible for protecting yourself,
+your property and data, and others from any risks caused by this code. This
+code may cause unexpected and undesirable behavior to occur on your machine.
+This code may not detect the vulnerability on your system.
+
+Note that this POC consists of two components: server code and client code.
+The server code triggers the vulnerability and therefore will crash the client
+code. Note also that it is necessary to set the nameserver to point to the
+server code, and doing so could cause other programs that call into the
+getaddrinfo() function to crash while testing is underway. This POC code is
+provided "as is" with no warranties, whether express or implied, including
+without limitation any warranties or merchantability, fitness for a particular
+use and noninfringement. Google assumes no responsibility for your proper
+installation and use of the POC code.
